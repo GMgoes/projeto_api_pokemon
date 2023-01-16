@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <title>Pokemon</title>
+    <!--Importação Visual interno-->
+    <link rel="stylesheet" type="text/css" href="estilo_interno.css"/>
+    <link rel="icon" href="imagens/pokebola.png" type="image/png">
+</head>
+<body>
+<!--Corpo principal da nossa interface-->
+<div id="formato_body" class="container">
+    <!--Logo da aplicação, centralizada no site-->
+    <section style="justify-content:center">
+        <img id="logo" src="imagens/logo.png">
+    </section>
+    <!--Aqui vai mostrar todas as pokebolas produzidas pelo JavaScript-->
+    <section class="pokemon" style="margin-top: 20px;">
+        <!--Aqui possibilita uma div para conter a nossa listagem (Row's) e suas colunas, no caso os pokemons em si-->
+        <div class="container text-center">
+            <!--Row criada de forma estática, que recebe as colunas de forma dinâmica-->
+            <div id = "listagem_por_grade" class="row"></div>
+        </div>
+    </section>
+    <!--Navbar que será utilizada para a navegação pelas páginas-->
+    <nav class="navbar">
+        <ul class="pagination" style="margin: 15px auto auto;">
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Anterior">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <div id='paginacao' style="display:flex;">
+            </div>
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Próximo">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</div>
+<!--Importaçaõ do JS interno-->
+<script src="JSprincipal.js"></script>
+<!--Importação Visual externo-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</body>
+</html>

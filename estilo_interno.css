@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Secular+One&display=swap');
+#formato_body{
+    margin-top: 10px;
+    background-color: #f5ebe0; border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+img{
+    width:150px;
+    height:150px;
+}
+.pokebola{
+    width:300px;height:200px;
+    text-align: center;font-size: 20px;font-family: 'Secular One', cursive;
+    margin: 5px auto auto; background-color: #e3d5ca; border-radius: 10px;
+}
+#logo{
+    width:250px;height:100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+#nomePokemon{
+    text-transform: capitalize;
+}
+#divImagemDoPokemon{
+    width: 250px; height: 250px; border-radius: 10px;
+    margin: auto;
+}
+#fire{
+    background-color: #bc4b51;
+}
+#water{
+    background-color: #3a6ea5;
+}
+#grass{
+    background-color:#49a078;
+}
+#poison{
+    background-color: #6d597a;
+}
+#electric{
+    background-color: #f3de2c;
+}
+#psychic{
+    background-color: #3a0ca3;
+}
+#bug{
+    background-color: #bcf4de;
+}
+#rock{
+    background-color: #606c38;
+}
+#tipoPokemon{
+    text-transform: capitalize;
+}
